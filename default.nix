@@ -27,6 +27,7 @@ let
       src = ./.;
     };
   };
+
 in set.reanimate.components.library // {
   env = set.shellFor {
     packages = p: [ p.reanimate ];
